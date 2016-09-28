@@ -31,7 +31,7 @@ public class GameController : MonoBehaviour {
 
         if (restart)
         {
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetMouseButtonDown(1))
             {
                 Application.LoadLevel(Application.loadedLevel);
             }
